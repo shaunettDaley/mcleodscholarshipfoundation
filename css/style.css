@@ -1,5 +1,5 @@
 header{
-    background-image:url('/images/image1.jpg');
+    background-image:url('../images/image1.jpg');
     background-repeat:no-repeat;
     background-attachment: fixed;
     background-size:cover;
@@ -58,7 +58,7 @@ section.section-back {
 
 
 .who-image {
-    background-image:url('/images/image2.jpg');
+    background-image:url('../images/image2.jpg');
     background-repeat:no-repeat;
     background-size:60%;
     background-position:center center;
@@ -66,7 +66,7 @@ section.section-back {
 }
 
 .parax{
-    background-image:url('/images/image7.jpg');
+    background-image:url('../images/image7.jpg');
     background-repeat:no-repeat;
     background-attachment: fixed;
     height:400px;
