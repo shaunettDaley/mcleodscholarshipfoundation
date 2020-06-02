@@ -21,7 +21,7 @@ document.addEventListener('scroll', () => {
      // logoText.classList.add('hidelogo');
      // imageLogo.classList.add('showlogo');
       //imageLogo.classList.remove('hidelogo');
-      logoshow.innerHTML = `<img src="images/logo.jpg" alt="McLeod Foundation Logo" class="logo">`;
+      logoshow.innerHTML = `<img src="images/logo-2.png" alt="McLeod Foundation Logo" class="logo">`;
     }
 
 
