@@ -37,6 +37,19 @@ nav a {
     display:block !important;
 }
 
+span.slogan {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 2.5rem;
+    top: 54%;
+    background: #00000080;
+    /*font-family: 'Dancing Script', cursive !important;*/
+}
+
+
 span.slogan-2 {
     position: absolute;
     text-align: center;
