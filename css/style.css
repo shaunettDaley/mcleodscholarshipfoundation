@@ -1,9 +1,17 @@
 header{
-    background-image:url('../images/image1.jpg');
+    background-image:url('/images/image1.jpg');
     background-repeat:no-repeat;
     background-attachment: fixed;
     background-size:cover;
     height:100vh;
+}
+
+.subpage{
+    background-image:url('/images/image6.jpg');
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    height:80vh;
 }
 
 body{
@@ -14,11 +22,19 @@ img.logo {
     max-width: 229px;
     width: 100#;
     width: 100%;
-}
+} 
 
 nav a {
     color: #000 !important;
     font-weight:bold;
+}
+
+.hidelogo{
+    display:none !important;
+}
+
+.showlogo{
+    display:block !important;
 }
 
 span.slogan {
@@ -31,6 +47,11 @@ span.slogan {
     top: 54%;
     background: #00000080;
     /*font-family: 'Dancing Script', cursive !important;*/
+}
+
+a.brand-logo {
+    top: -17px;
+   /* left: 40px;*/
 }
 
 
@@ -58,7 +79,7 @@ section.section-back {
 
 
 .who-image {
-    background-image:url('../images/image2.jpg');
+    background-image:url('/images/image2.jpg');
     background-repeat:no-repeat;
     background-size:60%;
     background-position:center center;
@@ -66,10 +87,21 @@ section.section-back {
 }
 
 .parax{
-    background-image:url('../images/image7.jpg');
+    background-image:url('/images/image7.jpg');
     background-repeat:no-repeat;
     background-attachment: fixed;
     height:400px;
+    background-size:cover;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+
+.parax-sub{
+    background-image:url('/images/pencil-book.jpg');
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    height:280px;
     background-size:cover;
     margin-top:50px;
     margin-bottom:50px;
@@ -112,12 +144,22 @@ span.parax-slogan {
 } 
 
 
-
+@media only screen and (max-width : 768px) {
+/*
+    a.brand-logo {
+        left: 50% !important;
+    }
+*/
+}
 
 @media only screen and (max-width : 640px) {
+    img.logo {
+        max-width: 150px;
+        width: 100%;
+    }
 
     span.slogan {
-     font-size: 1.5rem;
+     font-size: 1.2rem;
         top: 20%;
        }
 
@@ -130,6 +172,13 @@ span.parax-slogan {
         height: 250px;
     }
 
+    span.smaller-text {
+        font-size: 1.2rem;
+        font-style: italic;
+    }
+    a.brand-logo {
+        top: 0% !important;
+    }
 
 }
 
